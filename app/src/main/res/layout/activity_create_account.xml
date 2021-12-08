@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:id="@+id/dam_tv"
+        android:text="@string/dam"
+        android:textColor="@color/myPink"
+        android:layout_marginTop="20dp"
+        android:textSize="70sp"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_tv"
+        android:text="@string/app"
+        android:textColor="@color/myPink"
+        android:layout_marginTop="60dp"
+        android:textSize="35sp"
+        android:layout_marginStart="230dp"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dam_tv"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/myPink"
+        android:text="@string/create_an_account"
+        android:id="@+id/CreateAccount_tv"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CreateAccount_tv"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/myPink"
+        android:textSize="30sp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/full_name_tv"
+        android:text="@string/full_name"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/full_name_tv"
+        android:hint="@string/enter_full_name_here"
+        android:backgroundTint="@color/myPink"
+        android:id="@+id/full_name_et"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/full_name_et"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/myPink"
+        android:textSize="30sp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/email_tv"
+        android:text="@string/email"
+        />
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_tv"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/myPink"
+        android:hint="@string/enter_email_here" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_et"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/myPink"
+        android:textSize="30sp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/dob_tv"
+        android:text="@string/date_of_birth"
+        />
+
+    <EditText
+        android:id="@+id/dob_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dob_tv"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/myPink"
+        android:hint="@string/enter_date_of_birth" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dob_et"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/myPink"
+        android:textSize="30sp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/password_tv"
+        android:text="@string/password"
+        />
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_tv"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/myPink"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+         />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/password_et"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/myPink"
+        android:hint="@string/enter_address_here"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/create_account"
+        android:backgroundTint="@color/myPink"
+        android:id="@+id/CreateAccount_btn"
+        android:textAllCaps="false"
+        />
+
+
+
+
+
+
+</RelativeLayout>
